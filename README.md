@@ -2,7 +2,7 @@
 
 Bu proje; sistem gözlemlenebilirliği (observability) ve izleme (monitoring) temellerini kavramak amacıyla, real-time performans takip aracı olan **Netdata**'nın bir Linux sunucusuna otomatik kurulumunu, altyapının yük altında test edilmesini ve süreçlerin kabuk betikleri (Shell Scripts) ile otomatize edilmesini içerir.
 
-##️ Otomasyon Scriptleri ve Mimarisi
+## Otomasyon Scriptleri ve Mimarisi
 
 Sürecin insan hatasından bağımsız, tekrarlanabilir ve kararlı (idempotent) olabilmesi için 3 temel script yazılmıştır:
 
@@ -12,7 +12,7 @@ Sürecin insan hatasından bağımsız, tekrarlanabilir ve kararlı (idempotent)
 
 ---
 
-##️ Proje Klasör Yapısı
+## Proje Klasör Yapısı
 
 ```text
 system-monitoring/
@@ -20,3 +20,5 @@ system-monitoring/
 ├── test_dashboard.sh  # Çoklu Çekirdek Güvenli Yük Testi Betiği
 ├── cleanup.sh         # Sistem Temizlik ve Kaldırma Betiği
 └── README.md          # Proje Dokümantasyonu
+
+https://roadmap.sh/projects/simple-monitoring-dashboard
