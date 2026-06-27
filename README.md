@@ -20,5 +20,6 @@ system-monitoring/
 ├── test_dashboard.sh  # Çoklu Çekirdek Güvenli Yük Testi Betiği
 ├── cleanup.sh         # Sistem Temizlik ve Kaldırma Betiği
 └── README.md          # Proje Dokümantasyonu
+```
 
 https://roadmap.sh/projects/simple-monitoring-dashboard
